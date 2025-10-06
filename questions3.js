@@ -3,7 +3,7 @@ const questions = [
     "question": "57. At what fuel flow level does the warning threshold begin (red arc)?",
     "options": ["a) Greater than 30 USG/h", "b) Greater than 25 USG/h", "c) Greater than 35 USG/h", "d) Greater than 20 USG/h"],
     "correct": 0
-  }
+  },
   {
     "question": "58. What is the warning range for the fuel totalizer in US gallons (red arc)?",
     "options": ["a) 9-14 USG", "b) Greater than 14 USG", "c) 0-9 USG", "d) 0-14 USG"],
@@ -139,4 +139,5 @@ const questions = [
     "options": ["a) -4-59A", "b) 0-1A", "c) -59--5A", "d) 2-100A"],
     "correct": 0
   }
+
 ];
