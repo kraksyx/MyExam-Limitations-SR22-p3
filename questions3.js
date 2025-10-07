@@ -7,17 +7,17 @@ const questions = [
   {
     "question": "58. What is the warning range for the fuel totalizer in US gallons (red arc)?",
     "options": ["a) 9-14 USG", "b) Greater than 14 USG", "c) 0-9 USG", "d) 0-14 USG"],
-    "correct": 1
+    "correct": 2
   },
   {
     "question": "59. What is the caution range for the fuel totalizer in US gallons (yellow arc)?",
     "options": ["a) 9-14 USG", "b) Greater than 14 USG", "c) 0-9 USG", "d) 0-14 USG"],
-    "correct": 2
+    "correct": 0
   },
   {
     "question": "60. What is the normal range for the fuel totalizer in US gallons (green arc)?",
     "options": ["a) 9-14 USG", "b) 0-9 USG", "c) 0-14 USG", "d) Greater than 14 USG"],
-    "correct": 2
+    "correct": 3
   },
   {
     "question": "61. At what fuel quantity level does the warning range begin, indicated by the red arc?",
@@ -27,7 +27,7 @@ const questions = [
   {
     "question": "62. What is the caution range for fuel quantity in US gallons (yellow arc)?",
     "options": ["a) Greater than 46 USG", "b) 0-14 USG", "c) 14-46 USG", "d) 0-9 USG"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "63. What is the normal range for fuel quantity in US gallons (green arc)?",
@@ -52,7 +52,7 @@ const questions = [
   {
     "question": "67. What is the minimum oil temperature required for takeoff?",
     "options": ["a) 24 C (75 F)", "b) 20 C (68 F)", "c) 15 C (59 F)", "d) 30 C (86 F)"],
-    "correct": 1
+    "correct": 0
   },
   {
     "question": "68. What is the acceptable oil pressure range for the system?",
@@ -92,22 +92,22 @@ const questions = [
   {
     "question": "75. What is the voltage range indicated by the yellow arc for Main bus 1 (0-36V)?",
     "options": ["a) >32V", "b) <24.5V", "c) 24.5-32V", "d) 0-24.4V"],
-    "correct": 2
+    "correct": 3
   },
   {
     "question": "76. What is the voltage threshold indicated by the red arc for Main bus 1 (0-36V)?",
     "options": ["a) >32V", "b) 0-24.4V", "c) 24.5-32V", "d) <24.5V"],
-    "correct": 1
+    "correct": 0
   },
   {
     "question": "77. What is the voltage range indicated by the green arc for Main bus 2 (0-36V)?",
     "options": ["a) <24.5V", "b) 0-24.4V", "c) >32V", "d) 24.5-32V"],
-    "correct": 1
+    "correct": 3
   },
   {
     "question": "78. What is the voltage range indicated by the yellow arc for Main bus 2 (0-36V)?",
     "options": ["a) 0-24.4V", "b) <24.5V", "c) 24.5-32V", "d) >32V"],
-    "correct": 2
+    "correct": 0
   },
   {
     "question": "79. What is the voltage threshold indicated by the red arc for Main bus 2 (0-36V)?",
@@ -122,17 +122,17 @@ const questions = [
   {
     "question": "81. What is the current range indicated by the yellow arc for Alternator 1 (0-100A)?",
     "options": ["a) 2-100A", "b) 2-59A", "c) 0-1A", "d) 0-70A"],
-    "correct": 1
+    "correct": 2
   },
   {
     "question": "82. What is the current range indicated by the green arc for Alternator 2 (0-70A)?",
     "options": ["a) 0-1A", "b) 0-59A", "c) 2-70A", "d) 2-100A"],
-    "correct": 2
+    "correct": 3
   },
   {
     "question": "83. What is the current range indicated by the yellow arc for Alternator 2 (0-70A)?",
     "options": ["a) 0-59A", "b) 0-1A", "c) 2-100A", "d) 2-70A"],
-    "correct": 0
+    "correct": 1
   },
   {
     "question": "84. What is the current range indicated by the green arc for Battery 1 (-59-59A)?",
@@ -141,3 +141,4 @@ const questions = [
   }
 
 ];
+
